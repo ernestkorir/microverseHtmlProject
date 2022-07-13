@@ -28,3 +28,13 @@ ul {
     text-align: left;
     line-height: 1.6;
 }
+
+@media only screen and (max-width: 600px) {
+    #img-div {
+        margin: 0;
+    }
+
+    ul {
+        max-width: 774px
+    }
+}
