@@ -1,5 +1,12 @@
 body {
     text-align:center;
+    line-height: 2;
+    font-family: cursive;
+
+}
+
+#main {
+    background-color: beige;
 }
 
 #image {
@@ -7,8 +14,17 @@ body {
     height: auto;
     display: block;
     margin: 0 auto;
+    margin-bottom: 15px;
 }
 
-#image-div {
+#img-div {
     background-color: aliceblue;
+    padding: 2em;
+}
+
+ul {
+    max-width: 550px;
+    margin: 0 auto 50px auto;
+    text-align: left;
+    line-height: 1.6;
 }
